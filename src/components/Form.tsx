@@ -35,7 +35,7 @@ const Form = (props: Props2) => {
                 e.target.value == "" ||
                 /\s+$/i.test(e.target.value) == true
               ) {
-                props.setName(e.target.value);
+                props.setName(e.target.value.toUpperCase());
               }
               props.setNameVal(true);
             }}
