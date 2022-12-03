@@ -1,0 +1,61 @@
+declare module "*.jpg";
+declare module "*.png";
+declare module "*.svg";
+type Props = {
+  cardNumber: string;
+  setCardNumber: (cardNumber: string) => void;
+  month: string;
+  setMonth: (month: string) => void;
+  year: string;
+  setYear: (year: string) => void;
+  cvc: string;
+  setcvc: (cvc: string) => void;
+  name: string;
+  setName: (name: string) => void;
+};
+
+type Props2 = {
+  cardNumber: string;
+  setCardNumber: (cardNumber: string) => void;
+  month: string;
+  setMonth: (month: string) => void;
+  year: string;
+  setYear: (year: string) => void;
+  cvc: string;
+  setcvc: (cvc: string) => void;
+  name: string;
+  setName: (name: string) => void;
+  setLetConfirm: (letConfirm: boolean) => void;
+  setNameVal: (nameVal: boolean) => void;
+  nameVal: boolean;
+  setNumberVal: (numberVal: boolean) => void;
+  numberVal: boolean;
+  setMonthVal: (monthVal: boolean) => void;
+  monthVal: boolean;
+  setYearVal: (yearVal: boolean) => void;
+  yearVal: boolean;
+  setcvcVal: (cvcVal: boolean) => void;
+  cvcVal: boolean;
+  setCardNumber: (cardNumber: string) => void;
+  setMonth: (month: string) => void;
+  setYear: (year: string) => void;
+  setcvc: (cvc: string) => void;
+  setName: (name: string) => void;
+  setLetConfirm: (letConfirm: boolean) => void;
+  setIsNumber: (isNumber: boolean) => void;
+  isNumber: boolean;
+};
+
+type Props3 = {
+  setCardNumber: (cardNumber: string) => void;
+  setMonth: (month: string) => void;
+  setYear: (year: string) => void;
+  setcvc: (cvc: string) => void;
+  setName: (name: string) => void;
+  setLetConfirm: (letConfirm: boolean) => void;
+  setNameVal: (nameVal: boolean) => void;
+  setNumberVal: (numberVal: boolean) => void;
+  setMonthVal: (monthVal: boolean) => void;
+  setYearVal: (yearVal: boolean) => void;
+  setcvcVal: (cvcVal: boolean) => void;
+};
