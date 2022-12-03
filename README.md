@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code](https://github.com/beqa200/github-user-search)
-- Live Site URL: [Vercel Live](https://github-user-search-ashy.vercel.app/)
+- Solution URL: [GitHub Code](https://github.com/beqa200/interactive-credit-card-details-form)
+- Live Site URL: [Vercel Live](https://interactive-credit-card-details-form.vercel.app/)
 
 ## My process
 
